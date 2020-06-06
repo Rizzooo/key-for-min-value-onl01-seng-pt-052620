@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   
   smallest = 1000
-  smallest_name = 
+  smallest_name = "small"
   
   name_hash.each do |name, value|
     
