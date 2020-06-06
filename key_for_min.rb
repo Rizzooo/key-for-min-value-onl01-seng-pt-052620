@@ -9,8 +9,8 @@ def key_for_min_value(name_hash)
     
     if value < smallest
       value = smallest
-      name = name_for
+      name = name_for.to_s
     end
   end
-  return name_for
+  return name_for.to_s
 end
