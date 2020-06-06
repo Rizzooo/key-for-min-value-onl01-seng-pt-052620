@@ -11,5 +11,5 @@ def key_for_min_value(name_hash)
       value = smallest
     end
   end
-  puts name_hash("smallest")
+  puts 
 end
