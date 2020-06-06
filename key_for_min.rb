@@ -3,12 +3,12 @@
 
 def key_for_min_value(name_hash)
   
-  smallest = ""
+  smallest = 1000
  
   name_hash.each do |name, value|
     
-    if value <= value1 && value2 && value3
-      smallest << name
+    if value < smallest
+      value = smallest
     end
   end
   puts smallest
