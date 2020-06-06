@@ -4,13 +4,13 @@
 def key_for_min_value(name_hash)
   
   smallest = 1000
-  smallest_name = name_hash[0]
+  smallest_name = "small"
   
   name_hash.each do |name, value|
     
     if value < smallest
       value = smallest
-      name <=> name_hash[0]
+      name = smallest_name
     end
   end
   return smallest_name
