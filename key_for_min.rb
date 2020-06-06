@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
     
     if value < smallest
       value = smallest
-      name.to_s = smallest_name
+      name = smallest_name
     end
   end
   puts smallest_name
