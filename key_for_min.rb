@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
     value3 = name_hash.values[2]
     
     if value <= value1 && value2 && value3
-      smallest << name
+      smallest << name.to_s
     end
   end
   puts smallest
